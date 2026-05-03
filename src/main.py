@@ -16,7 +16,7 @@ def main():
 
     folder_cleanup(DIR_PATH_PUBLIC)
     copy_files_recursive(DIR_PATH_STATIC, DIR_PATH_PUBLIC)
-    generate_pages_recursive("content/", "template.html", "public/", basepath)
+    generate_pages_recursive("content/", "template.html", DIR_PATH_PUBLIC, basepath)
     
     
 
