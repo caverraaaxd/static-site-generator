@@ -1,3 +1,4 @@
+import os
 from textnode import TextNode, TextType
 
 def main():
@@ -6,4 +7,7 @@ def main():
 
 
 
-main()
+
+
+if __name__ == "__main__":
+    main()
